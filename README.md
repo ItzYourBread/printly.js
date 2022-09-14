@@ -1,8 +1,8 @@
 ![](images/printlyjs.png)
 
-[![Repo Dependents](https://badgen.net/github/dependents-repo/jaywcjlove/bannerjs)](https://github.com/NotRealArif/printly.js/network/dependents)
-[![npm version](https://img.shields.io/npm/v/bannerjs.svg)](https://www.npmjs.com/package/printly.js)
-[![NPM Download](https://img.shields.io/npm/dm/bannerjs.svg?style=flat)](https://www.npmjs.com/package/printly.js)
+[![Repo Dependents](https://badgen.net/github/dependents-repo/NotRealArif/printly.js)](https://github.com/NotRealArif/printly.js/network/dependents)
+[![npm version](https://img.shields.io/npm/v/printly.js.svg)](https://www.npmjs.com/package/printly.js)
+[![NPM Download](https://img.shields.io/npm/dm/printly.js.svg?style=flat)](https://www.npmjs.com/package/printly.js)
 
 
 ## What is Printly.js?
