@@ -1,17 +1,23 @@
 {
-  "name": "printly.js",
-  "version": "1.0.0",
-  "description": "",
+  "name": "printly",
+  "version": "1.1.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "NotRealArif",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.6",
-    "chalk": "^4.1.0",
-    "node-fetch": "^3.2.6"
-  }
+    "chalk": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotRealArif/printly.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NotRealArif/printly.js/issues"
+  },
+  "homepage": "https://github.com/NotRealArif/printly.js#readme",
+  "description": ""
 }
