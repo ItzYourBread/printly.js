@@ -1,40 +1,46 @@
 'use strict';
 
-
-
+const pms = require("ms");
 const colour = require("chalk");
 
+// printly(); to print a message
+const printly = (value) => {
+    console.log(value);
+};
 
 
-var printly = {
-    print: function(value) {
-        console.log(value);
-    },
-    data: function data(value) {
-        console.table(value);
-    },
-    error: function error(value) {
-        console.error(value);
-    },
-    clear: function clear() {
-        console.clear();
-    },
-    count: function count(value) {
-        console.count(value);
-    },
-    dir: function dir(value) {
-        console.dir(value);
-    },
-    time: function time(value) {
-        console.time(value);
-    },
-    timeEnd: function timeEnd(value) {
-        console.timeEnd(value);
-    }
+// printly all functions here
+printly.data = function data(value) {
+    console.table(value);
+};
+
+printly.error = function error(value) {
+    console.error(value);
+};
+
+printly.clear = function clear() {
+    console.clear();
+};
+
+printly.count = function count(value) {
+    console.count(value);
+};
+
+printly.dir = function dir(value) {
+    console.dir(value);
+};
+
+printly.time = function time(value) {
+    console.time(value);
+};
+
+printly.timeEnd = function timeEnd(value) {
+    console.timeEnd(value);
 };
 
 
 module.exports = {
     printly,
     colour,
+    pms,
 }
