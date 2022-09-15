@@ -29,6 +29,7 @@ printly("Hello Printly.js!");
 ```
 Here is a example with colours remember we are using chalk@4.1.0 for colours
 ```js
+// you can use color or colour
 const { printly, colour } = require("printly.js");
 
 printly(colour.yellow("Hello Printly.js with colour!"));
