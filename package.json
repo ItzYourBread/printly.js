@@ -1,11 +1,8 @@
 {
   "name": "printly.js",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "keywords": ["npm", "color", "colors", "colour", "colours", "printly", "console", "javascript"],
   "author": "NotRealArif",
   "license": "ISC",
   "dependencies": {
@@ -19,5 +16,5 @@
     "url": "https://github.com/NotRealArif/printly.js/issues"
   },
   "homepage": "https://github.com/NotRealArif/printly.js#readme",
-  "description": ""
+  "description": "Printly.js is the remake of console object in JavaScript and much better then console object and Printly.js has colours support on console messages, for colours we are using chalk@4.1.0 for colours"
 }
