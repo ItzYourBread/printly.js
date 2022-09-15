@@ -2,6 +2,7 @@
 
 const pms = require("ms");
 const colour = require("chalk");
+const color = require("chalk");
 
 // printly(); to print a message
 const printly = (value) => {
@@ -42,5 +43,6 @@ printly.timeEnd = function timeEnd(value) {
 module.exports = {
     printly,
     colour,
+    color,
     pms,
 }
