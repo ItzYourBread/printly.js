@@ -48,7 +48,7 @@ const { printly, colour, pms } = require("printly.js");
 printly(colour.yellow("Hello Printly.js"));
 
 setTimeout(async function() {
-        printly(c.yellow(`Hello! how are you doing?`))
+        printly(colour.yellow(`Hello! how are you doing?`))
     }, 
 pms("0.5s"));
 ```
