@@ -27,6 +27,7 @@ Here is a example with printly objects
 ```js
 const { printly } = require("printly.js");
 
+
 printly("Hello Printly.js!");
 ```
 Here is a example with colours and some background colours
@@ -34,11 +35,15 @@ Here is a example with colours and some background colours
 // you can use colour or color if you want!
 const { printly, colour } = require("printly.js");
 
+
 printly(colour.yellow("Hello Printly.js with colour!"));
+
+printly(colour.bgCyan(colour.red("Hello background colour"));
 ```
 And here is a example with pms
 ```js
 const { printly, colour, pms } = require("printly.js");
+
 
 printly(colour.yellow("Hello Printly.js"));
 
