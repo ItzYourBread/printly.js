@@ -20,6 +20,7 @@ Printly.js is the remake of console object in JavaScript and much better then co
 * 7 `printly.dir();` displays an interactive list of the properties of the specified JavaScript object. 
 * 8 `printly.time();` starts a timer you can use to track how long an operation takes.
 * 9 `printly.timeEnd();` stops a timer that was previously started by calling console.
+* 10 `printly.timeout();` it's basically setTimeout but easy 
 
 ## Example ✨
 
@@ -40,17 +41,21 @@ printly(colour.yellow("Hello Printly.js with colour!"));
 
 printly(colour.bgCyan(colour.red("Hello background colour"));
 ```
-And here is a example with pms
+And here is a example with printly.timeout
 ```js
-const { printly, colour, pms } = require("printly.js");
+const { printly, colour } = require("printly.js");
 
 
 printly(colour.yellow("Hello Printly.js"));
 
-setTimeout(async function() {
-        printly(c.yellow(`Hello! how are you doing?`))
-    }, 
-pms("0.5s"));
+printly(colour.bgCyan(colour.red("Hello background colour"));
+
+
+
+// by default is printly(); on first argument
+printly.timeout(("Hello printly.js after 4 seconds"), 4000);
+// example with colour
+printly.timeout(colour.cyan("Hello printly.js after 4 seconds"), 4000);
 ```
 
 ## Colors

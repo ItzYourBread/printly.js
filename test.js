@@ -8,7 +8,6 @@
 
 
 const { printly, colour } = require("./lib/index.js");
-const { color } = require("./lib/index.js");
 // const { colour } = require("./lib/util/colour.js");
 
 
