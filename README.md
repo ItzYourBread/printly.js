@@ -48,6 +48,7 @@ const { printly, colour } = require("printly.js");
 
 printly(colour.yellow("Hello Printly.js"));
 
+<<<<<<< HEAD
 printly(colour.bgCyan(colour.red("Hello background colour"));
 
 
@@ -56,6 +57,12 @@ printly(colour.bgCyan(colour.red("Hello background colour"));
 printly.timeout(("Hello printly.js after 4 seconds"), 4000);
 // example with colour
 printly.timeout(colour.cyan("Hello printly.js after 4 seconds"), 4000);
+=======
+setTimeout(async function() {
+        printly(colour.yellow(`Hello! how are you doing?`))
+    }, 
+pms("0.5s"));
+>>>>>>> origin/main
 ```
 
 ## Colors
