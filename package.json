@@ -1,11 +1,9 @@
 {
   "name": "printly.js",
-  "version": "1.3.5",
+  "version": "1.3.7",
   "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
   "scripts": {
-      "test": "echo working test command",
-      "build": "tsc"
+    "test": "echo working test command"
   },
   "keywords": [
     "npm",
@@ -16,13 +14,13 @@
     "printly",
     "console",
     "javascript",
-    "ms"
+    "terminal",
+    "ansi",
+    "yarn"
   ],
   "author": "NotRealArif",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^18.7.18",
-    "chalk": "^4.1.0",
     "ms": "^2.1.3"
   },
   "repository": {
@@ -33,8 +31,8 @@
     "url": "https://github.com/NotRealArif/printly.js/issues"
   },
   "homepage": "https://github.com/NotRealArif/printly.js#readme",
-  "description": "Printly.js is the remake of console object in JavaScript and much better then console object and Printly.js has colours support on console messages, for colours we are using chalk@4.1.0 for colours",
+  "description": "Printly.js is the remake of console object in JavaScript and much better then console object and Printly.js has colours support on console messages",
   "devDependencies": {
-    "typescript": "^4.8.3"
+    "cli-color": "^2.0.3"
   }
 }

@@ -4,20 +4,22 @@
 [![npm version](https://img.shields.io/npm/v/printly.js.svg)](https://www.npmjs.com/package/printly.js)
 [![NPM Download](https://img.shields.io/npm/dm/printly.js.svg?style=flat)](https://www.npmjs.com/package/printly.js)
 
+## Printly.js ⚡️
 
 ## What is Printly.js?
-Printly.js is the remake of console object in JavaScript and much better then console object and Printly.js has colours support on console messages, for colours and its have in-built ms module.
+Printly.js is the remake of console object in JavaScript and much better then console object and Printly.js has colours support on console messages
 
-## There are 8 printly objects
+## There are 9 printly objects
 
-* 1 `printly();`
-* 2 `printly.error();`
-* 3 `printly.data();`
-* 4 `printly.clear();`
-* 5 `printly.count();`
-* 6 `printly.dir();`
-* 7 `printly.time();`
-* 8 `printly.timeEnd();`
+* 1 `printly();` for printing a console message.
+* 2 `printly.error();` outputs an error message to the Web console.
+* 3 `printly.warn();` outputs a warning message to the Web console.
+* 4 `printly.data();` utilize small spaces to not only function as additional storage, but to also show off some of your home decor and personality.
+* 5 `printly.clear();` clears the console if the console allows it.
+* 6 `printly.count();` logs the number of times that this particular call to count() has been called.
+* 7 `printly.dir();` displays an interactive list of the properties of the specified JavaScript object. 
+* 8 `printly.time();` starts a timer you can use to track how long an operation takes.
+* 9 `printly.timeEnd();` stops a timer that was previously started by calling console.
 
 ## Example ✨
 
@@ -27,14 +29,14 @@ const { printly } = require("printly.js");
 
 printly("Hello Printly.js!");
 ```
-Here is a example with colours remember we are using chalk@4.1.0 for colours
+Here is a example with colours and some background colours
 ```js
-// you can use color or colour
+// you can use colour or color if you want!
 const { printly, colour } = require("printly.js");
 
 printly(colour.yellow("Hello Printly.js with colour!"));
 ```
-And here is a example with pms remember pms is using ms@2.1.3
+And here is a example with pms
 ```js
 const { printly, colour, pms } = require("printly.js");
 
