@@ -1,6 +1,6 @@
 {
   "name": "printly.js",
-  "version": "1.4.2",
+  "version": "1.4.4",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo working test command"
@@ -21,8 +21,7 @@
   "author": "NotRealArif",
   "license": "MIT",
   "dependencies": {
-    "cli-color": "^2.0.3",
-    "ms": "^2.1.3"
+    "cli-color": "^2.0.3"
   },
   "repository": {
     "type": "git",

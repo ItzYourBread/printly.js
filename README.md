@@ -59,6 +59,24 @@ printly.timeout(("Hello printly.js after 4 seconds"), 4000);
 printly.timeout(colour.cyan("Hello printly.js after 4 seconds"), 4000);
 
 ```
+And here is the millisecond converter
+```js
+const { printly, ms } = require("printly.js");
+
+
+ms('1d')      // 86400000
+ms('10h')     // 36000000
+ms('2h')      // 7200000
+ms('1m')      // 60000
+ms('5s')      // 5000
+ms('100')     // 100
+ms(100)       // 100
+
+ms(60000)             // "1 minute"
+ms(2 * 60000)         // "2 minutes"
+
+printly.timeout(("Hello Printly.js"), ms('10 hours'));    // "10 hours"
+```
 
 ## Colors
 

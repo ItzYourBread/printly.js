@@ -3,3 +3,4 @@ node_modules
 replit.nix
 .npmignore
 package-lock.json
+style.js
