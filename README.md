@@ -10,7 +10,7 @@
 ## What is Printly.js?
 Printly.js is the remake of console object in JavaScript and much better then console object and Printly.js has colours support on console messages
 
-## There are 9 printly objects
+## There are 10 printly objects
 
 * 1 `printly();` for printing a console message.
 * 2 `printly.error();` outputs an error message to the Web console.
