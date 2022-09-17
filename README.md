@@ -112,5 +112,6 @@ printly.timeout(("Hello Printly.js"), ms('10 hours'));    // "10 hours"
 
 **Not supported on Windows and some terminals**. However if used in not supported environment, the closest color from basic (16 colors) palette is chosen.
 
+
 ## Have a great day!
 thats it hope it will help JavaScript and TypeScript developers! 
