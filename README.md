@@ -8,7 +8,10 @@
 ## Printly.js ⚡️
 
 ## What is Printly.js?
-Printly.js is the remake of console object in JavaScript and much better then console object and Printly.js has colours support on console messages
+Printly.js is the rewrite of console objects in JavaScript and much better then console object and Printly.js has colours support on console messages.
+
+## Supported on?
+Printly.js has TypeScript and JavaScript supoort.
 
 ## There are 10 printly objects
 
@@ -25,14 +28,14 @@ Printly.js is the remake of console object in JavaScript and much better then co
 
 ## Example ✨
 
-Here is a example with printly objects
+Here is a example with printly objects.
 ```js
 const { printly } = require("printly.js");
 
 
 printly("Hello Printly.js!");
 ```
-Here is a example with colours and some background colours
+Here is a example with colours and some background colours.
 ```js
 // you can use colour or color if you want!
 const { printly, colour } = require("printly.js");
@@ -42,7 +45,7 @@ printly(colour.yellow("Hello Printly.js with colour!"));
 
 printly(colour.bgCyan(colour.red("Hello background colour"));
 ```
-And here is a example with printly.timeout
+And here is a example with printly.timeout.
 ```js
 const { printly, colour } = require("printly.js");
 
@@ -60,7 +63,7 @@ printly.timeout(("Hello printly.js after 4 seconds"), 4000);
 printly.timeout(colour.cyan("Hello printly.js after 4 seconds"), 4000);
 
 ```
-And here is the millisecond converter
+And here is the millisecond converter.
 ```js
 const { printly, ms } = require("printly.js");
 

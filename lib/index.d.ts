@@ -9,19 +9,18 @@
 'use strict';
 
 
-const printly = require("./util/printly.js");
-const colour = require("./util/colour.js");
-const ms = require("./util/ms.js");
+import printly from ("./util/printly.js");
+import colour from ("./util/colour.js");
+import ms from ("./util/ms.js");
 
 var color = colour;
 
-module.exports = {
+export {
     printly,
     colour,
     color,
     ms,
 };
-
 
 /*
     |------------------------------|

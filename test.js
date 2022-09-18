@@ -57,6 +57,3 @@ for (let i = 0; i < 100000; i++) {
   // some code
 }
 printly.timeEnd("Printly.js");
-
-
-printly(color.bgRedBright("Hello with color"))
