@@ -7,8 +7,7 @@
 */ 
 
 
-const { printly, colour } = require("./lib/index.js");
-// const { colour } = require("./lib/util/colour.js");
+const { printly, colour, ms } = require("./lib/index");
 
 
 printly(colour.bgRed("Hello colourful world with Printly.js")); 
@@ -53,7 +52,7 @@ printly(colour.whiteBright("Hello colourful world with Printly.js"));
 printly(colour.blackBright("Hello colourful world with Printly.js"));
 
 printly.time("Printly.js");
-for (let i = 0; i < 100000; i++) {
+for (let i = 0; i < 12000; i++) {
   // some code
 }
 printly.timeEnd("Printly.js");
