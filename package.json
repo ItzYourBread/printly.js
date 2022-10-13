@@ -1,6 +1,6 @@
 {
   "name": "printly.js",
-  "version": "1.4.8",
+  "version": "1.5.0",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
