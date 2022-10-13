@@ -21,7 +21,10 @@
     "javascript",
     "terminal",
     "ansi",
-    "yarn"
+    "yarn",
+    "cli",
+    "nodejs",
+    "cli-colours"
   ],
   "author": "NotRealArif",
   "license": "MIT",
