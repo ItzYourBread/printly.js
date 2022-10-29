@@ -1,7 +1,5 @@
 import { printly, colour, ms } from "./lib/index";
 
-
-
 const profile = [
     {
         "Name": "Hery",
